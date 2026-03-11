@@ -40,10 +40,7 @@ External functions used: free, malloc, read write
 |                                  |                                | ft_striteri                                                   |                    |                                 |                                        |
 
 ### Compilation
-Clone the repository:
-```bash
-git clone git@vogsphere.42firenze.it:vogsphere/intra-uuid-69ecb7cc-231a-438e-a012-978e3372252d-7201106-flavides
-```
+Clone the repository
 
 Build the library:
 ```bash
