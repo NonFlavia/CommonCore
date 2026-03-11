@@ -12,8 +12,8 @@
 
 /* itoa
 
-NON FUNZIONANO LE UNIT' 
-e; una triste storia
+
+e' una triste storia
  * converte un intero in un ascii 
  * Allocates memory (using malloc(3)) and returns
 a string representing the integer received as an
