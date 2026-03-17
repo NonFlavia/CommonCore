@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-// non mi leggeva lo strlen, quindi ricreato file nel dubbio
+// trova ultima ricorrenta di int c (ma e' un char) in s
 
 char	*ft_strrchr(const char *s, int c)
 {
