@@ -11,7 +11,7 @@ You may find a new way to do it.
 search and replace:
 be carefull to check that argv[2] and argv[3] are made by only one character.
 
-[search_and_replace.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/search_and_replace.c))
+[search_and_replace.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/search_and_replace.c)
 
 
 ## level 1
