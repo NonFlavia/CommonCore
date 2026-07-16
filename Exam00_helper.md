@@ -17,6 +17,7 @@ last word:
 my tip here is very simple. After we found the end of the string, we have to skip possible ending spaces after the word we need to reach. 
 
 I suggest to save the position with another int called "end". 
+
 [last_word.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/last_word.c)
 
 ## level 1
