@@ -7,10 +7,14 @@ It is important to understand logic behind an argument... You cannot remember ho
 You may find a new way to do it. 
 
 ## C - our first love and our enemy.
-# level 0 - Some tips.
-search and replace: be carefull to check that argv[2] and argv[3] are made by only one character.
-[search_and_replace](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/search_and_replace.c))
-# level 1
+## level 0 - Some tips.
+search and replace:
+be carefull to check that argv[2] and argv[3] are made by only one character.
+[search_and_replace.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/search_and_replace.c))
 
+
+## level 1
+### Resources
 - [sort_int_tab](https://github.com/example/sort_int_tab](https://www.youtube.com/watch?v=qLVrwCvVPGo))
+
 
