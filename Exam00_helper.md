@@ -13,6 +13,11 @@ be carefull to check that argv[2] and argv[3] are made by only one character.
 
 [search_and_replace.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/search_and_replace.c)
 
+last word:
+my tip here is very simple. After we found the end of the string, we have to skip possible ending spaces after the word we need to reach. 
+
+I suggest to save the position with another int called "end". 
+[last_word.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/last_word.c)
 
 ## level 1
 ### Resources
