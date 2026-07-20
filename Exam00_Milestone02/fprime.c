@@ -5,7 +5,7 @@
 we need to find all the prime numbers that make up the int
 given as an argument. we can use atoi(), so converting argv to an int is easier.
 
-we create an int variable called `todiv`, starting from the first prime number after 1 (2).
+we create an int variable called `todiv`, starting from the first prime number (2).
 
 if `n % todiv == 0`,
 we know that `todiv` is one of the prime factors, so we print it.
