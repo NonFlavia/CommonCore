@@ -102,7 +102,8 @@ Easy trick: lowercase and uppercase letters are 32 positions apart in ASCII
 - [ulstr.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_0/ulstr.c)
 
 
-## level 1 - okay, now we need a little more logic eheh
+```bash
+## level 1 - okay, a little more logic
 
 **alpha mirror:** every letter becomes its opposite in the alphabet. a → z, b → y, c → x and so on.
 
@@ -114,15 +115,13 @@ helloWorld → hello_world
 
 - [camel_to_snake.c](work in progress)
 
-**do op:** you have two numbers and an operator. check which operation you have to do and print the result. really, that's it.
+**do op:** you have two numbers and an operator. check which operation you have to do and print the result. that's it.
 
 - [do_op.c](work in progress)
 
 **ft atoi:** turn a string into an int. skip spaces, check the sign and then read the numbers one by one.
 
-remember:
-
-result = result * 10 + digit
+remember: result = result * 10 + digit
 
 - [ft_atoi.c](work in progress)
 
@@ -152,10 +151,6 @@ left → ← right
 
 - [ft_strspn.c](work in progress)
 
-**inter:** print the chars that are in both strings, following the order of the first one. no doubles!
-
-- [inter.c](work in progress)
-
 **is power of 2:** keep dividing by 2. if you reach 1, good.
 
 8 → 4 → 2 → 1
@@ -166,9 +161,7 @@ left → ← right
 
 - [last_word.c](work in progress)
 
-**max:** keep the biggest number you found. if you find something bigger, update it.
-
-be careful with negative numbers eheh.
+**max:** keep the biggest number you found. if you find something bigger, update it. be careful with negative numbers eheh.
 
 - [max.c](work in progress)
 
@@ -200,11 +193,11 @@ hello_world → helloWorld
 
 - [union.c](work in progress)
 
-**wdmatch:** scan the second string and look for the chars of the first one in the right order. every time you find one, move to the next.
-
-if you reach the end of the first string, print it.
+**wdmatch:** scan the second string looking for the chars of the first one in the right order. every time you find one, move to the next. if you reach the end of the first string, print it.
 
 - [wdmatch.c](work in progress)
+```
+
 
 ## level 3
 **fprime**
