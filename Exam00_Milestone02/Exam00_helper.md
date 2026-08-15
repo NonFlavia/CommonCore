@@ -76,6 +76,7 @@ Last char: `str[len - 1]` → `str[2]` → `'t'`
 
 **rotone:**
 Same logic as rot_13 but move each letter only one position forward. % 26 makes z become a and Z become A!
+
 Another way to do it is simply to handle z and Z as special cases, then use + 1 for every other letter.
 - [rotone.c](work in progress)
 
