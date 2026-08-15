@@ -12,7 +12,7 @@ You may find a new way to do it.
 **first word:**
 Just remember to skip every space or tab at the beginning of the string. argc MUST be equal to 2.
 
-- [first_word.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_0/first_word.c)s)
+- [first_word.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_0/first_word.c))
 
 **fizz buzz:**
 You can use math or you can brute-force it (yea, you can use a lot of "write", why not?). It doesn't matter: the fastest way is the best way.
