@@ -103,7 +103,6 @@ Easy trick: lowercase and uppercase letters are 32 positions apart in ASCII
 
 
 ## level 1
-### Resources
 
 **alpha mirror:** replace every letter with the opposite one in the alphabet. `a → z`, `b → y`, `c → x` and so on. uppercase stays uppercase.
 
