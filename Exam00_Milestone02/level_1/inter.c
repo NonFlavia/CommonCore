@@ -1,5 +1,3 @@
-//
-
 #include <unistd.h>
 
 // hi, this code was made by flavides during the 42 Common Core!
