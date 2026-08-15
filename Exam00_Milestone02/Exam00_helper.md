@@ -101,8 +101,6 @@ Easy trick: lowercase and uppercase letters are 32 positions apart in ASCII
 
 - [ulstr.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_0/ulstr.c)
 
-
-```bash
 ## level 1 - okay, a little more logic
 
 **alpha mirror:** every letter becomes its opposite in the alphabet. a → z, b → y, c → x and so on.
@@ -196,7 +194,7 @@ hello_world → helloWorld
 **wdmatch:** scan the second string looking for the chars of the first one in the right order. every time you find one, move to the next. if you reach the end of the first string, print it.
 
 - [wdmatch.c](work in progress)
-```
+
 
 
 ## level 3
