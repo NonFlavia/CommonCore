@@ -55,7 +55,7 @@ My suggestion is to use an int to store the position in the alphabet of the char
 If 'a' is in str[i] 
 → value = str[i] - 'a' + 1.
 That +1 is important because 'a' - 'a' is 0, but a must be printed once.
-[repeat_alpha.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_0/repeat_alpha.c)
+- [repeat_alpha.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_0/repeat_alpha.c)
 
 **rev print:**
 Make your own ft_strlen then use the length of the string to start from the last character and print backwards!
