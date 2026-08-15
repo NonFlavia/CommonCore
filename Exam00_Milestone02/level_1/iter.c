@@ -1,44 +1,54 @@
 //
 
+#include <unistd.h>
 
-int issamechar(char c, char d)
+// hi, this code was made by flavides during the 42 Common Core!
+
+int	already_seen(char *str, int index)
 {
-    if (c == d)
-        return (1);
-    return (0);
+	int	i;
+
+	i = 0;
+	while (i < index)
+	{
+		if (str[i] == str[index])
+			return (1);
+		i++;
+	}
+	return (0);
 }
 
-/* str          str2
-    c i a o     s c i s t r a o
-    i          j */
-
-void inter(char *str, char *str2)
+int	is_inside(char *str, char c)
 {
-    int i;
-    i = 0;
-    int j;
-    j = 0;
-    if (! str || ! str2)
-        return;
-   
-    while (str[i])
-    {
-        while (str2[j] != '\0')
-        {
-            if (issamechar(str[i], str[j]))
-                write(1, &str[j], 1);
-            j++
-        }
-        j = 0;
-        i++;
-    }
-    write (1, "\n", 1);
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] == c)
+			return (1);
+		i++;
+	}
+	return (0);
 }
 
-int main(int argc, char **argv)
+void	inter(char *s1, char *s2)
 {
-    if (argc != 2)
-        return;
-    inter(argv[1], "ciaoooo");
-    return(0);
+	int	i;
+
+	i = 0;
+	while (s1[i])
+	{
+		if (!already_seen(s1, i) && is_inside(s2, s1[i]))
+			write(1, &s1[i], 1);
+		i++;
+	}
+}
+
+int	main(int argc, char **argv)
+{
+	if (argc == 3)
+		inter(argv[1], argv[2]);
+	write(1, "\n", 1);
+	return (0);
 }
