@@ -102,119 +102,107 @@ Easy trick: lowercase and uppercase letters are 32 positions apart in ASCII
 - [ulstr.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_0/ulstr.c)
 
 
-## level 1
+## level 1 - okay, now we need a little more logic eheh
 
-**alpha mirror:** replace every letter with the opposite one in the alphabet. `a → z`, `b → y`, `c → x` and so on. uppercase stays uppercase.
+**alpha mirror:** every letter becomes its opposite in the alphabet. a → z, b → y, c → x and so on.
 
 - [alpha_mirror.c](work in progress)
 
-**camel to snake:** when you find an uppercase letter, print `_` and then the lowercase version.
+**camel to snake:** if you find an uppercase letter, print _ and then the same letter in lowercase.
 
-example: `helloWorld` → `hello_world`
+helloWorld → hello_world
 
 - [camel_to_snake.c](work in progress)
 
-**do op:** you need 3 arguments: number, operator, number. convert the numbers, check `argv[2][0]` and do the operation.
-
-`+  -  *  /  %`
+**do op:** you have two numbers and an operator. check which operation you have to do and print the result. really, that's it.
 
 - [do_op.c](work in progress)
 
-**ft atoi:** convert a string into an int. skip spaces, check `+` or `-` then read the digits.
+**ft atoi:** turn a string into an int. skip spaces, check the sign and then read the numbers one by one.
 
-`result = result * 10 + digit`
+remember:
 
-`digit = str[i] - '0'`
+result = result * 10 + digit
 
 - [ft_atoi.c](work in progress)
 
-**ft strcmp:** compare the strings char by char. when you find different chars, return their difference.
+**ft strcmp:** compare the two strings char by char. when you find something different, return the difference.
 
 - [ft_strcmp.c](work in progress)
 
-**ft strcspn:** count chars until you find one that is also inside `reject`.
+**ft strcspn:** keep counting until you find a char that is also inside the second string.
 
 - [ft_strcspn.c](work in progress)
 
-**ft strdup:** find the len, malloc enough space and copy the string.
-
-remember the `+ 1` for `\0`!
-
-`malloc((len + 1) * sizeof(char))`
+**ft strdup:** basically make a copy of a string using malloc. remember to leave space for \0!
 
 - [ft_strdup.c](work in progress)
 
-**ft strpbrk:** find the first char in the first string that also exists in the second one. return a pointer to it or `NULL`.
+**ft strpbrk:** find the first char of the first string that also exists in the second one. return where you found it.
 
 - [ft_strpbrk.c](work in progress)
 
-**ft strrev:** swap the first char with the last one, then continue towards the middle.
+**ft strrev:** reverse the string by swapping chars from the outside to the inside.
 
-`left → ← right`
+left → ← right
 
 - [ft_strrev.c](work in progress)
 
-**ft strspn:** count chars while they ARE inside `accept`. stop when one is not there.
+**ft strspn:** keep counting while the chars are inside the second string. if one is not there, stop.
 
 - [ft_strspn.c](work in progress)
 
-**inter:** scan the first string. print a char if it also exists in the second string and you did not already print it. no doubles!
+**inter:** print the chars that are in both strings, following the order of the first one. no doubles!
 
 - [inter.c](work in progress)
 
-**is power of 2:** keep dividing by 2. if you reach `1`, it is a power of 2.
+**is power of 2:** keep dividing by 2. if you reach 1, good.
 
-`8 → 4 → 2 → 1` yes
-
-`10 → 5` nope
+8 → 4 → 2 → 1
 
 - [is_power_of_2.c](work in progress)
 
-**last word:** go to the end, skip ending spaces or tabs and find the beginning of the last word.
+**last word:** reach the end, skip ending spaces and then go back until you find the beginning of the last word.
 
 - [last_word.c](work in progress)
 
-**max:** keep the biggest value you found and update it when you find something bigger.
+**max:** keep the biggest number you found. if you find something bigger, update it.
 
-`if (tab[i] > max)` → `max = tab[i]`
-
-be careful with negative numbers!
+be careful with negative numbers eheh.
 
 - [max.c](work in progress)
 
-**print bits:** an `unsigned char` has 8 bits. print them from left to right.
+**print bits:** print the 8 bits of an unsigned char.
 
-`2` → `00000010`
+2 → 00000010
 
 - [print_bits.c](work in progress)
 
-**reverse bits:** reverse the position of the 8 bits.
+**reverse bits:** same bits, opposite order.
 
-`00100110` → `01100100`
+00100110 → 01100100
 
 - [reverse_bits.c](work in progress)
 
-**snake to camel:** when you find `_`, skip it and make the next letter uppercase.
+**snake to camel:** when you find _, skip it and make the next letter uppercase.
 
-`hello_world` → `helloWorld`
+hello_world → helloWorld
 
 - [snake_to_camel.c](work in progress)
 
-**swap bits:** split the 8 bits into two groups of 4 and swap them.
+**swap bits:** take the first 4 bits and the last 4 bits and swap them.
 
-`1010 0011` → `0011 1010`
-
-`(octet >> 4) | (octet << 4)`
+1010 0011 → 0011 1010
 
 - [swap_bits.c](work in progress)
 
-**union:** read the first string and then the second one. print every char only the first time you find it. no doubles!
+**union:** read the first string and then the second one. print every char only once. no doubles!
 
 - [union.c](work in progress)
 
-**wdmatch:** scan `s2`. every time you find the next char you need from `s1`, move forward in `s1`. if you reach the end of `s1`, print it.
+**wdmatch:** scan the second string and look for the chars of the first one in the right order. every time you find one, move to the next.
 
-`scan s2 → find next char of s1 → move forward in s1`
+if you reach the end of the first string, print it.
 
 - [wdmatch.c](work in progress)
 
