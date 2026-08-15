@@ -92,6 +92,14 @@ I suggest to save the position after skipped spaces making a new int called "end
 
 - [last_word.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/last_word.c)
 
+**ulstr:**
+Do not be afraid of that name. Lowercase letters become uppercase and uppercase letters become lowercase. Other characters stay unchanged!
+That's all.
+Easy trick: lowercase and uppercase letters are 32 positions apart in ASCII
+
+- [ulstr.c](work in progress)
+
+
 ## level 1
 ### Resources
 **sort in tab**
