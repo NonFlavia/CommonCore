@@ -202,4 +202,4 @@ hello_world → helloWorld
 
 ## level 3
 **fprime**
-- [fprime.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/fprime.c)
+- [fprime.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_3/fprime.c)
