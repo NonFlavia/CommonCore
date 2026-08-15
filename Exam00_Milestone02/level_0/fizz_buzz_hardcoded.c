@@ -1,5 +1,5 @@
 #include <unistd.h>
-//hi
+//hi, this code was made by flavides during 42 common core!
 int	main(void)
 {
 	write(1, "1\n", 2);
