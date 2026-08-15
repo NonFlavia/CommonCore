@@ -70,6 +70,7 @@ Last char: `str[len - 1]` → `str[2]` → `'t'`
 | n        | a     |
 | o        | b     |
 | z        | m     |
+
 % 26 makes the alphabet restart from a after z! So... keep it in mind!
 - [rot13.c](work in progress)
 
