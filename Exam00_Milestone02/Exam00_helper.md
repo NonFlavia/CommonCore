@@ -105,55 +105,61 @@ Easy trick: lowercase and uppercase letters are 32 positions apart in ASCII
 
 **alpha mirror:** every letter becomes its opposite in the alphabet. a → z, b → y, c → x and so on.
 
-- [alpha_mirror.c](work in progress)
+- [alpha_mirror.c]((https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/alpha_mirror.c)
 
 **camel to snake:** if you find an uppercase letter, print _ and then the same letter in lowercase.
 
 helloWorld → hello_world
 
-- [camel_to_snake.c](work in progress)
+- [camel_to_snake.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/camel_to_snake.c)
 
 **do op:** you have two numbers and an operator. check which operation you have to do and print the result. that's it.
 
-- [do_op.c](work in progress)
+- [do_op.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/do_op.c)
 
 **ft atoi:** turn a string into an int. skip spaces, check the sign and then read the numbers one by one.
 
 remember: result = result * 10 + digit
 
-- [ft_atoi.c](work in progress)
+- [ft_atoi.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/ft_atoi.c)
 
 **ft strcmp:** compare the two strings char by char. when you find something different, return the difference.
 
-- [ft_strcmp.c](work in progress)
+- [ft_strcmp.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/ft_strcmp.cs)
 
 **ft strcspn:** keep counting until you find a char that is also inside the second string.
 
-- [ft_strcspn.c](work in progress)
+- [ft_strcspn.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/ft_strcspn.c)
 
 **ft strdup:** basically make a copy of a string using malloc. remember to leave space for \0!
 
-- [ft_strdup.c](work in progress)
+- [ft_strdup.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/ft_strdup.c)
 
 **ft strpbrk:** find the first char of the first string that also exists in the second one. return where you found it.
 
-- [ft_strpbrk.c](work in progress)
+- [ft_strpbrk.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/ft_strpbrk.c)
 
 **ft strrev:** reverse the string by swapping chars from the outside to the inside.
 
 left → ← right
 
-- [ft_strrev.c](work in progress)
+- [ft_strrev.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/ft_strrev.c)
 
 **ft strspn:** keep counting while the chars are inside the second string. if one is not there, stop.
 
-- [ft_strspn.c](work in progress)
+- [ft_strspn.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/ft_strspn.c)
 
 **is power of 2:** keep dividing by 2. if you reach 1, good.
 
 8 → 4 → 2 → 1
 
-- [is_power_of_2.c](work in progress)
+- [is_power_of_2.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/is_power_of_2.c)
+
+**inter:** scan the first string and check if each char also exists in the second one. if yes, print it, but only once. the order comes from the first string.
+
+example: padinton + paqefwiatgopsnh → padinto
+
+- [inter.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/iter.c)
 
 **last word:** reach the end, skip ending spaces and then go back until you find the beginning of the last word.
 
@@ -161,39 +167,39 @@ left → ← right
 
 **max:** keep the biggest number you found. if you find something bigger, update it. be careful with negative numbers eheh.
 
-- [max.c](work in progress)
+- [max.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/max.c)
 
 **print bits:** print the 8 bits of an unsigned char.
 
 2 → 00000010
 
-- [print_bits.c](work in progress)
+- [print_bits.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/print_bits.c)
 
 **reverse bits:** same bits, opposite order.
 
 00100110 → 01100100
 
-- [reverse_bits.c](work in progress)
+- [reverse_bits.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/reverse_bits.c)
 
 **snake to camel:** when you find _, skip it and make the next letter uppercase.
 
 hello_world → helloWorld
 
-- [snake_to_camel.c](work in progress)
+- [snake_to_camel.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/snake_to_camel.c)
 
 **swap bits:** take the first 4 bits and the last 4 bits and swap them.
 
 1010 0011 → 0011 1010
 
-- [swap_bits.c](work in progress)
+- [swap_bits.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/swap_bits.c)
 
 **union:** read the first string and then the second one. print every char only once. no doubles!
 
-- [union.c](work in progress)
+- [union.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/union.c)
 
 **wdmatch:** scan the second string looking for the chars of the first one in the right order. every time you find one, move to the next. if you reach the end of the first string, print it.
 
-- [wdmatch.c](work in progress)
+- [wdmatch.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/wdmatch.c)
 
 
 
