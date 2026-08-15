@@ -85,7 +85,7 @@ Another way to do it is simply to handle z and Z as special cases, then use + 1 
 **search and replace:**
 be carefull to check that argv[2] and argv[3] are made by only one character.
 
-- [search_and_replace.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/search_and_replace.c)
+- [search_and_replace.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_0/search_and_replace.c)
 
 
 **ulstr:**
