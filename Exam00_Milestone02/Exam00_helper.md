@@ -153,7 +153,7 @@ left → ← right
 
 example: padinton + paqefwiatgopsnh → padinto
 
-- [inter.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/iter.c)
+- [inter.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/inter.c)
 
 **last word:**
 my tip here is very simple. After we found the end of the string, we have to skip possible ending spaces after the word we need to reach. 
