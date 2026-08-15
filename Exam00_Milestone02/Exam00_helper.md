@@ -30,6 +30,54 @@ strcpy does not check whether dest has enough space! So if dest is too small, it
 You can compare your strcpy using the strcpy function in the library #include <string.h>
 - [ft_strcpy.c](work in progress)
 
+**ft strlen:**
+ft_strlen counts the length of a string without including the null terminator \0. Remember this when using malloc in other exercises.
+- [ft_strlen.c](work in progress)
+
+**ft swap:**
+Exchanges the values of two integers using pointers. A common confusion may be *:
+int *a → a is a pointer to an int.
+*a → the actual value stored at the address pointed to by a.
+So you should not write a = int_to_swap, because in that case you are assigning a value to the pointer itself.
+In ft_swap(int *a, int *b), remember to swap *a and *b: not the pointers themselves, but the values they point to.
+- [ft_swap.c](work in progress)
+
+**repeat alpha:**
+My suggestion is to use an int to store the position in the alphabet of the character we are printing.
+If 'a' is in str[i] 
+→ value = str[i] - 'a' + 1.
+That +1 is important because 'a' - 'a' is 0, but a must be printed once.
+[repeat_alpha.c](work in progress)
+
+**rev print:**
+Make your own ft_strlen then use the length of the string to start from the last character and print backwards!
+Remember: string indexes start from 0, so if len = ft_strlen(str), the last character is at str[len - 1]. str[len] is the null terminator \0.
+little example: 
+| char  | c | a | t | \0 |
+|-------|---|---|---|----|
+| index | 0 | 1 | 2 | 3  |
+`len = 3`
+Last char: `str[len - 1]` → `str[2]` → `'t'`
+- [rev_print.c](work in progress)
+
+**rot13:**
+| Original | ROT13 |
+|----------|-------|
+| a        | n     |
+| b        | o     |
+| c        | p     |
+| m        | z     |
+| n        | a     |
+| o        | b     |
+| z        | m     |
+% 26 makes the alphabet restart from a after z! So... keep it in mind!
+- [rot13.c](work in progress)
+
+**rotone:**
+Same logic as rot_13 but move each letter only one position forward. % 26 makes z become a and Z become A!
+Another way to do it is simply to handle z and Z as special cases, then use + 1 for every other letter.
+- [rotone.c](work in progress)
+
 **search and replace:**
 be carefull to check that argv[2] and argv[3] are made by only one character.
 
