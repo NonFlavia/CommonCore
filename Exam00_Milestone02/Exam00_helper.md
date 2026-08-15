@@ -119,7 +119,7 @@ remember: result = result * 10 + digit
 
 **ft strcmp:** compare the two strings char by char. when you find something different, return the difference.
 
-- [ft_strcmp.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/ft_strcmp.cs)
+- [ft_strcmp.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/ft_strcmp.c)
 
 **ft strcspn:** keep counting until you find a char that is also inside the second string.
 
