@@ -44,7 +44,6 @@ In ft_swap(int *a, int *b), remember to swap *a and *b: not the pointers themsel
 - [ft_swap.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_0/ft_swap.c)
 
 
-
 **repeat alpha:**
 My suggestion is to use an int to store the position in the alphabet of the character we are printing.
 If 'a' is in str[i] 
@@ -100,7 +99,7 @@ Easy trick: lowercase and uppercase letters are 32 positions apart in ASCII
 
 **alpha mirror:** every letter becomes its opposite in the alphabet. a → z, b → y, c → x and so on.
 
-- [alpha_mirror.c]((https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/alpha_mirror.c)
+- [alpha_mirror.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/alpha_mirror.c)
 
 **camel to snake:** if you find an uppercase letter, print _ and then the same letter in lowercase.
 
