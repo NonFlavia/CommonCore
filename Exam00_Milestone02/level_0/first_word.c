@@ -1,0 +1,20 @@
+#include <unistd.h>
+//hi, this code was made by flavides during 42 common core!
+int	main(int argc, char **argv)
+{
+	int  i;
+
+	i = 0;
+	if (argc == 2)
+  {
+		while (argv[1][i] == ' ' || argv[1][i] == '\t')
+			i++;
+		while (argv[1][i] && argv[1][i] != ' ' && argv[1][i] != '\t')
+		{
+			write(1, &argv[1][i], 1);
+			i++;
+		}
+	}
+	write(1, "\n", 1); //Remember that forgetting to print \n may be the reason why the exercise does not pass.
+	return (0);
+}
