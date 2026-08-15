@@ -33,7 +33,7 @@ You can compare your strcpy using the strcpy function in the library #include <s
 
 **ft strlen:**
 ft_strlen counts the length of a string without including the null terminator \0. Remember this when using malloc in other exercises.
-- [ft_strlen.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_0/ft%20strlen.c)
+- [ft_strlen.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_0/ft_strlen.c)
 
 **ft swap:**
 Exchanges the values of two integers using pointers. A common confusion may be *:
