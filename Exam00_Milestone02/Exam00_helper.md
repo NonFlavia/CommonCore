@@ -160,7 +160,7 @@ my tip here is very simple. After we found the end of the string, we have to ski
 
 I suggest to save the position after skipped spaces making a new int called "end". 
 
-- [last_word.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/last_word.c)
+- [last_word.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/last_word.c)
 
 **max:** keep the biggest number you found. if you find something bigger, update it. be careful with negative numbers eheh.
 
