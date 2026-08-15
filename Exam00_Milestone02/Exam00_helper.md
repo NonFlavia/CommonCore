@@ -43,12 +43,7 @@ So you should not write a = int_to_swap, because in that case you are assigning 
 In ft_swap(int *a, int *b), remember to swap *a and *b: not the pointers themselves, but the values they point to.
 - [ft_swap.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_0/ft_swap.c)
 
-**last word:**
-my tip here is very simple. After we found the end of the string, we have to skip possible ending spaces after the word we need to reach. 
 
-I suggest to save the position after skipped spaces making a new int called "end". 
-
-- [last_word.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/last_word.c)
 
 **repeat alpha:**
 My suggestion is to use an int to store the position in the alphabet of the character we are printing.
@@ -161,9 +156,12 @@ example: padinton + paqefwiatgopsnh → padinto
 
 - [inter.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/level_1/iter.c)
 
-**last word:** reach the end, skip ending spaces and then go back until you find the beginning of the last word.
+**last word:**
+my tip here is very simple. After we found the end of the string, we have to skip possible ending spaces after the word we need to reach. 
 
-- [last_word.c](work in progress)
+I suggest to save the position after skipped spaces making a new int called "end". 
+
+- [last_word.c](https://github.com/NonFlavia/CommonCore/blob/main/Exam00_Milestone02/last_word.c)
 
 **max:** keep the biggest number you found. if you find something bigger, update it. be careful with negative numbers eheh.
 
