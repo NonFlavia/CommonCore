@@ -9,6 +9,27 @@ You may find a new way to do it.
 
 ## C - our first love and our enemy.
 ## level 0 - Some tips.
+**first word:**
+Just remember to skip every space or tab at the beginning of the string. argc MUST be equal to 2.
+
+- [first_word.c](work in progress)
+
+**fizz buzz:**
+You can use math or you can brute-force it (yea, you can use a lot of "write", why not?). It doesn't matter: the fastest way is the best way.
+
+- [fizz_buzz.c](work in progress)
+
+**ft putstr:**
+You can use the pointer to the string character directly with write, or use an int to loop through the string. Choose the method you remember best.
+- [ft_putstr.c](work in progress)
+
+**ft strcpy:**
+Okay, maybe the man page can help, but in my opinion it can be a little confusing during the exam! 
+A very short way to remember it: strcpy(dst, src) → copy src into dst.
+strcpy does not check whether dest has enough space! So if dest is too small, it HAS to cause a buffer overflow.
+You can compare your strcpy using the strcpy function in the library #include <string.h>
+- [ft_strcpy.c](work in progress)
+
 **search and replace:**
 be carefull to check that argv[2] and argv[3] are made by only one character.
 
