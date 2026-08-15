@@ -1,36 +1,33 @@
 #include <unistd.h>
-#include <stdio.h>
-int ft_isspace(char c)
+
+// hi, this code was made by flavides during the 42 Common Core!
+
+void	last_word(char *str)
 {
-    if (c == ' ' || c == '\t' || c == '\n' || c == '\v' || c == '\f' || c == '\r')
-        return(1);
-    return(0);
+	int	i;
+	int	end;
+
+	i = 0;
+	while (str[i])
+		i++;
+	i--;
+	while (i >= 0 && (str[i] == ' ' || str[i] == '\t'))
+		i--;
+	end = i;
+	while (i >= 0 && str[i] != ' ' && str[i] != '\t')
+		i--;
+	i++;
+	while (i <= end)
+	{
+		write(1, &str[i], 1);
+		i++;
+	}
 }
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
-    int i;
-    i = 0;
-    int end;
-    end = 0;
-    int space = 0;
-    if (argc == 2)
-    {
-        while(argv[1][i])
-            i++;
-        i  -= 1;
-        space = i;
-       while ( space >= 0 && ft_isspace(argv[1][space]))
-            space--;
-        end = space;
-        while (space >= 0  && ! ft_isspace(argv[1][space]))
-                space--;
-        space++;
-        while(space <= end)
-        {
-            write(1, &argv[1][space], 1);
-            space++;
-        }
-    }
-    write(1, "\n", 1);
+	if (argc == 2)
+		last_word(argv[1]);
+	write(1, "\n", 1);
+	return (0);
 }
