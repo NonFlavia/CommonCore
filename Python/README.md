@@ -59,6 +59,10 @@ Before studying the code, these short videos can help with the main concepts:
 5. [Abstract classes in one minute](https://www.youtube.com/shorts/Loz0rZ1gQWY)  
    Optional English recap.
 
+Recommended order:
+
+`Abstract classes → Inheritance → Polymorphism → Abstract classes in one minute -> Exercise 0 code`
+
 ### Short videos before Exercise 0 (ITA with last video in ENG) 🎥 ###
 Before studying the code, these short videos can help with the main concepts:
 
