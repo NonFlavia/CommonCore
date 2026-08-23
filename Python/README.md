@@ -44,8 +44,22 @@ This time, let AI help you. It can find short video tutorials, introduce the fou
 ## Module 5: Code Nexus
 
 ### Exercise 0: Data Processor 🐈
+### Short videos before Exercise 0 (ENG) 🎥 ###
+Before studying the code, these short videos can help with the main concepts:
 
-### Short videos before Exercise 0 🎥 ###
+1. [Learn Python abstract classes in 7 minutes](https://www.youtube.com/watch?v=97V7ICVeTJc)  
+   `ABC` → `@abstractmethod` → rules for subclasses
+
+2. [Python inheritance in 6 minutes](https://www.youtube.com/watch?v=u1be7Vele5o)  
+   Parent classes → subclasses → inherited methods
+
+3. [Learn polymorphism in 8 minutes](https://www.youtube.com/watch?v=tHN8I_4FIt8)  
+   Method overriding → same rules → different behaviors
+   
+5. [Abstract classes in one minute](https://www.youtube.com/shorts/Loz0rZ1gQWY)  
+   Optional English recap.
+
+### Short videos before Exercise 0 (ITA with last video in ENG) 🎥 ###
 Before studying the code, these short videos can help with the main concepts:
 
 1. [Abstract classes in Python](https://www.youtube.com/watch?v=kUD9TokdKvg)  
