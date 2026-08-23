@@ -1,5 +1,12 @@
 # CommonCore
+Hi! This was made by flavides during the 42 Firenze Common Core.
 Projects made during the common core. My travel from zero to hero :cat:!
+
+### Disclaimer
+
+All folders in this Common Core repository represent my personal learning journey at 42 Firenze.
+I do not claim ownership of the project subjects, modules, curriculum, or educational methodology provided by 42. This repository exists solely as a portfolio of the projects I created during this journey.
+I will not publish or redistribute the original project subjects.
 
 ### libft
 A custom C library that recreates essential standard library functions, utility functions.
