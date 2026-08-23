@@ -41,9 +41,27 @@ This time, let AI help you. It can find short video tutorials, introduce the fou
 
 </details>
 
-### Module 5: Code Nexus
+## Module 5: Code Nexus
 
-## Exercise 0: Data Processor 🐈
+### Exercise 0: Data Processor 🐈
+
+### Short videos before Exercise 0 🎥 ###
+Before studying the code, these short videos can help with the main concepts:
+
+1. [Abstract classes in Python](https://www.youtube.com/watch?v=kUD9TokdKvg)  
+   `ABC` → `@abstractmethod` → rules for subclasses
+
+2. [Inheritance and polymorphism](https://www.youtube.com/watch?v=pmbRRJaplh0&t=535s)  
+   Start at `8:55` → inheritance → overriding → different behaviors
+
+3. [Abstract classes in one minute](https://www.youtube.com/shorts/Loz0rZ1gQWY)  
+   Optional English recap.
+
+Recommended order:
+
+`Abstract classes → Inheritance and polymorphism → Exercise 0 code`
+
+### My little explanation ###
 
 `DataProcessor` → defines the common rules:
 
